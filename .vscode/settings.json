@@ -1,0 +1,6 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.fontSize": 16
+}
