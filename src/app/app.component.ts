@@ -8,10 +8,12 @@ import { DUMMY_USERS } from './user/dummy-user';
   standalone: true,
   imports: [HeaderComponent, UserComponent],
   templateUrl: './app.component.html',
-  styleUrl: './header/header.component.css',
+  styleUrl: './app.component.css',
 })
-
-
 export class AppComponent {
-  users = DUMMY_USERS
+  users = DUMMY_USERS;
+
+  onSelectUser(id: string) {
+    console.log('User id : ', id);
+  }
 }
