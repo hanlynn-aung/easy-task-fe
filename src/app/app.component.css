@@ -7,6 +7,11 @@ main {
   gap: 2rem;
 }
 
+body,
+html {
+  overflow: hidden;
+}
+
 #users {
   list-style: none;
   margin: 0;
